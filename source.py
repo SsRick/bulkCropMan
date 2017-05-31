@@ -45,6 +45,8 @@ for im in content:
 				cv2.imwrite(os.path.join('cropped','sam'+str(i)+'.jpg'),roi)
 				i=i+1
 			elif key==ord("c"):
+                                cv2.imshow('image',cpy)
+                                refPt[:]=[]
 				continue
 
 
