@@ -1,3 +1,4 @@
+#for manually cropping a bilk of images
 import numpy
 import cv2
 import os
